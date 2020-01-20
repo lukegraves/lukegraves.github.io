@@ -1,0 +1,30 @@
+.footer {
+  border-top: 10px solid #DED6D4;
+  background: #E7E1DE;
+  color: #555;
+  font-size: 11px;
+  line-height: 22px;
+
+  .container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    @include flex-direction(column);
+  }
+
+  li {
+    margin: 0;
+    float: left;
+  }
+
+  .small,
+  a {
+    color: #555;
+    padding: 0;
+  }
+
+  a:hover {
+    color: #555;
+    text-decoration: underline;
+  }
+
+}
