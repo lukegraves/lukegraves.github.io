@@ -1,0 +1,61 @@
+.header {
+  border-bottom: 1px solid #EDE7E0;
+  background: #2C1414;
+  @include breakpoint(break-1) {
+    background: url('/assets/theme/nav-background.gif') repeat-x;
+  }
+
+  .container {
+    padding: 0;
+    @include flex-direction(row);
+    @include align-items(flex-start);
+
+    @include breakpoint(break-1) {
+      @include flex-direction(column);
+    }
+  }
+
+  .button--nav,
+  .button--nav:focus {
+    color: #fff;
+  }
+
+  .logo {
+    max-height: 108px;
+    flex: 0 0 110px;
+  }
+
+  a {
+    padding: 0 10px 0 0;
+    color: #FFF;
+  }
+
+  .nav li {
+    @include breakpoint(break-1) {
+      height: 40px;
+      border-right: 1px solid #E3E0D5;
+      float: left;
+      margin: 0;
+      padding: 0;
+
+      &:first-child {
+        border-left: 1px solid #E3E0D5;
+      }
+
+      &:hover,
+      &.item--current {
+        background: #fff;
+        color: #000;
+      }
+      a {
+        display: block;
+        color: #444;
+        text-decoration: none;
+        padding: 0px 20px;
+        line-height: 40px;
+        font-size: 13px;
+        font-family: Arial,Helvetica,Sans-serif;
+      }
+    }
+  }
+}
