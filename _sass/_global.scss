@@ -9,6 +9,41 @@ body {
 }
 
 .typeset {
+  h1, h2, h3, h4 {
+    font-family: Arial,Helvetica,Sans-serif;
+    line-height: 22px;
+    padding: 0 0 3px;
+    margin: 25px 0 10px 0;
+    border-bottom: 1px solid #DFDAD5;
+    color: #444;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  h2 {
+    font-size: 18px;
+    color: #555;
+  }
+
+  h3 {
+    font-size: 14px;
+  }
+
+  h4 {
+    font-size: 14px;
+    border: none;
+  }
+
+  p {
+    font-size: 12px;
+    line-height: 22px;
+    color: #444;
+    margin: 0;
+    padding: 0;
+  }
+
   small {
     font-family: Arial,Helvetica,Sans-serif;
     font-size: 11px;

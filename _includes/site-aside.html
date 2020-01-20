@@ -1,0 +1,25 @@
+<aside class="aside  typeset  aside--{{ include.align | default: 'right' }}">
+
+  {% if page.layout == "post" %}
+    <section class="section  section--related-posts">
+      {% include post-related.html %}
+    </section>
+
+  {% elsif page.layout == "page" or page.layout == "home" or page.layout == "blog" %}
+    <section class="section  section--description">
+      <h3>A Quarter Century in Austin</h3>
+      <img src="/assets/family.jpg" alt="Luke Graves and his family.">
+      <p>{{ site.description }}</p>
+
+      <h3>Testimonials</h3>
+      <p>“Luke guides his clients with a keen sense of judgment. He is a savvy negotiator and a straightforward businessman. The consummate professional, Luke is focused on delivering superior service and representation.”</p>
+      <strong class="sig">- Robert &amp; Jessica Malina</strong>
+      <p>“From day one, Luke was in our corner. He went above and beyond to find a house that was not only within our price range, but was everything we could have wanted. He has a passionate commitment to his work, and will put in 110% to find you the home you’re looking for.”</p>
+      <strong class="sig">- Jean &amp; George S.</strong>
+
+      {% include nav-social.html %}
+    </section>
+
+  {% endif %}
+
+</aside>
