@@ -1,18 +1,14 @@
 ---
-layout: page
 title: About
 permalink: /about/
+aside: true
+layout: page
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Any agent can sell you a house.  It takes persistence, patience,  and knowledge to find you the place you’ll call home. As an Austin  resident for the last quarter century, I have an exceptional  understanding of the area. Whether you are interested in the charm of a  Crestview Mid-Century Modern, the nightlife of a downtown loft, the  luxury of a lakefront estate, or the schools of the Northwest, I can  help you find the perfect property.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+#### Selling a Home
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+When selling a home, hiring a Realtor® familiar with current market  conditions, geographical variations, and buyer motivations is critical.   Encountering virtually every type of contingency over the years has  provided me with the experience necessary to negotiate effectively.  I  apply this field experience to achieve the greatest possible reward for  the seller.
 
-
-[jekyll-organization]: https://github.com/jekyll
+I only accept as many clients as allowable by time.  In this manner I  am able to provide undivided attention to each and every customer.   Whether buying or selling, you can rest assured that I provide the same  focus and attention to each and every one of you.
