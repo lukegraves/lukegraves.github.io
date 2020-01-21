@@ -15,7 +15,9 @@ A Realtor® with a keen understanding of market fluctuations and the dynamic nat
 
 Use our current listings search to search the MLS, or try our personalized search and let us conduct a tailored property search based on your specific criteria.
 
+<div class="cta">
 {% include button.html text="Search current listings" link="http://lukegravesrealty.idxco.com/idx/5284/basicSearch.php" %}
+</div>
 
 ## What Former Clients Are Saying
 

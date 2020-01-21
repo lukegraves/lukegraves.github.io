@@ -44,10 +44,35 @@ body {
     color: #444;
     margin: 0;
     padding: 0;
+
+    a {
+      color: #4265A7;
+      text-decoration: none;
+      background: none;
+      font-weight: 700;
+      &:hover {
+        color: #993333;
+        text-decoration: none;
+        background: none;
+      }
+    }
   }
 
   small {
     font-family: Arial,Helvetica,Sans-serif;
     font-size: 11px;
   }
+
+  .button {
+    margin: 30px 0 10px;
+    padding: 0 20px;
+    background: #DDD;
+    color: #000;
+    font-weight: 700;
+    font-size: 12px;
+  }
+}
+
+.cta {
+  text-align: center;
 }
