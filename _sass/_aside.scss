@@ -1,7 +1,9 @@
 .aside {
-  max-width: 28%;
-  margin-left: 10%;
   opacity: 1;
+  @include breakpoint(break-1) {
+    max-width: 28%;
+    margin-left: 10%;
+  }
 }
 
 .sig {
