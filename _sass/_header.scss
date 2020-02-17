@@ -1,4 +1,6 @@
 .header {
+  position: relative;
+  margin-top: 22px;
   border-bottom: 1px solid #EDE7E0;
   background: #2C1414;
   @include breakpoint(break-1) {
@@ -15,6 +17,35 @@
     }
   }
 
+  .social {
+    position: absolute;
+    width: 100%;
+    top: -22px;
+    background: #2B1414;
+    color: #ad9b83;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: right;
+    p {
+      line-height: 22px;
+    }
+
+    .social-wrapper {
+      width: 90%;
+      max-width: 960px;
+      margin: 0 auto;
+    }
+    a {
+      color: #ad9b83;
+      margin-left: 10px;
+      padding-left: 22px;
+
+      &.facebook {
+        background: url('/assets/social/fb.gif') no-repeat left;
+      }
+    }
+  }
+
   .button--nav,
   .button--nav:focus {
     color: #fff;
@@ -23,6 +54,7 @@
   .logo {
     max-height: 108px;
     flex: 0 0 110px;
+    img { max-height: 110px; }
   }
 
   a {

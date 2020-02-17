@@ -1,12 +1,13 @@
 <header class="header">
-  <div class="container">
-    {% if site.social_links %}
-    <div class="social">
-      Follow:
-      <a class="facebook" href="{{ site.social_links.facebook }}">Facebook</a>
+  {% if site.social_links %}
+  <div class="social">
+    <div class="social-wrapper">
+      <p>Follow: <a class="facebook" href="{{ site.social_links.facebook }}">Facebook</a></p>
     </div>
-    {% endif %}
+  </div>
+  {% endif %}
 
+  <div class="container">
     {% if site.logo %}{% include site-logo.html %}{% endif %}
 
     {% include nav-header.html %}
