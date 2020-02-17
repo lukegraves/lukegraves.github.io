@@ -34,6 +34,9 @@ social:
   links:
     - https://www.facebook.com/Luke-Graves-Realty-121912334512587
 
+social_links:
+  facebook: https://www.facebook.com/Luke-Graves-Realty-121912334512587
+
 navigation_header:
   - title: Home
     url: /
