@@ -11,14 +11,6 @@ Welcome to LukeGravesRealty.com, an exceptional resource for your Austin Real Es
 
 A Realtor® with a keen understanding of market fluctuations and the dynamic nature of home prices in Austin is a must. As a client, you should demand fidelity, integrity, and strong negotiating/marketing skills, as your representative, I embrace these principles.
 
-## Find Your Perfect Property
-
-Use our current listings search to search the MLS, or try our personalized search and let us conduct a tailored property search based on your specific criteria.
-
-<div class="cta">
-{% include button.html text="Search current listings" link="http://lukegravesrealty.idxco.com/idx/5284/basicSearch.php" %}
-</div>
-
 ## What Former Clients Are Saying
 
 “From day one, Luke was in our corner. He went above and beyond to find a house that was not only within our price range, but was everything we could have wanted. He has a passionate commitment to his work, and will put in 110% to find you the home you’re looking for.”

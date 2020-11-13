@@ -42,8 +42,6 @@ navigation_header:
     url: /
   - title: About
     url: /about
-  - title: Basic Search
-    url: http://lukegravesrealty.idxco.com/idx/5284/basicSearch.php
   - title: Testimonials
     url: /testimonials
   - title: Contact
