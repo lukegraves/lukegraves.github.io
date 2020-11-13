@@ -39,9 +39,15 @@
       color: #ad9b83;
       margin-left: 10px;
       padding-left: 22px;
+      line-height: 16px;
+      height: 16px;
+      display: inline-block;
 
       &.facebook {
         background: url('/assets/social/fb.gif') no-repeat left;
+      }
+      &.yelp {
+        background: url('/assets/social/yelp.png') no-repeat left;
       }
     }
   }
